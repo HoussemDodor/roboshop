@@ -15,8 +15,6 @@ An autonomous e-commerce platform powered by AI agents. This project focuses on 
 
 1. Create a `.env` file and add your OpenAI API key:
 
-2. Install dependencies: run in bash
-    pip install -r requirements.txt
+2. Install dependencies: ```pip install -r requirements.txt```
 
-3. Run the product research agent: run in bash
-    python agents/product_research_agent.py
+3. Start the app
