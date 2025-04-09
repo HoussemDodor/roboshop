@@ -42,28 +42,28 @@ def build_prompt(excluded_names):
     return f"""
 You are a product research assistant specializing in e-commerce niches.
 
-Your task is to generate five new product ideas in the following niche.
+Your task is to generate five **real, currently trending** product ideas based on the following niche information.
 
 {niche_info}
 
 Avoid suggesting any products named: {excluded_text}
 
 Requirements:
-- Do NOT reuse or repeat existing product ideas
-- Use short, specific real product names and actionable descriptions
-- Use snake_case keys only
-- Output raw JSON (no markdown)
+- ONLY suggest product ideas that reflect real, trending, or commonly searched items on platforms like Amazon, Etsy, Google Trends, or TikTok Shop.
+- Avoid fictional, overly imaginative, or non-existent product types.
+- Use short, commercially-viable product names (as seen in real listings)
+- Use snake_case keys only.
+- Output raw JSON only — no markdown, no triple backticks, no commentary.
 
 Return the result in raw JSON format only.
 Do NOT include any explanations, commentary, or markdown formatting.
 Do NOT wrap the response in triple backticks or label it as a code block.
 
-Respond in JSON format as a list of product objects.
-Each product should include:
-- product_name
-- description
-- target_audience_appeal
-- keywords (3–5)
+Each product should be structured as a JSON object with the following keys:
+- product_name: Full product name including qualifiers
+- description: 1–2 sentence overview of the product’s function and appeal
+- target_audience_appeal: Why this product would appeal to the target audience
+- keywords: 3–5 search terms relevant to the product
 """
 
 

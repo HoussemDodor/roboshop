@@ -1,62 +1,127 @@
 [
     {
-        "product_name": "ZenSpace Smart Desk Organizer",
-        "description": "A compact, elegant organizer with built-in wireless charging pad and ambient light, designed to keep essentials tidy while fitting seamlessly into a minimalist workspace.",
-        "target_audience_appeal": "Ideal for remote workers and digital creatives who appreciate clutter-free spaces and modern technology.",
-        "keywords": [
-            "desk organization",
-            "wireless charging",
-            "minimal design",
-            "ambient lighting",
-            "home office decor"
-        ]
-    },
-    {
-        "product_name": "CableQuilt Under-Desk Manager",
-        "description": "A sleek, magnetic cable management system that attaches under any desk, allowing for easy organization and adjustment of all types of cables.",
-        "target_audience_appeal": "Perfect for digital creatives who need to manage multiple cables neatly to maintain a clean working environment.",
+        "product_name": "Cable Management Box Set",
+        "simple_product_name": "cable_management_box",
+        "description": "A sleek set of cable management boxes to keep wires tidy and hidden, perfect for maintaining a clean and organized desk.",
+        "target_audience_appeal": "Provides a minimalist solution for organizing cables, appealing to those who value a clutter-free workspace.",
         "keywords": [
             "cable management",
-            "magnetic",
-            "under-desk",
-            "minimal design",
-            "productivity tools"
-        ]
-    },
-    {
-        "product_name": "ClearView Acrylic Monitor Stand",
-        "description": "A transparent, sturdy acrylic stand designed to raise your monitor to eye level, enhancing ergonomic comfort while maintaining a minimalist aesthetic.",
-        "target_audience_appeal": "Suitable for remote workers looking for a stylish yet functional addition to their home office that promotes comfort and productivity.",
-        "keywords": [
-            "minimal design",
-            "ergonomic",
-            "monitor stand",
             "desk organization",
+            "minimal design",
             "home office decor"
-        ]
+        ],
+        "google_trend_score": 0
     },
     {
-        "product_name": "SilentSpace Desk Divider",
-        "description": "A lightweight, portable desk divider with sound-absorbing properties, perfect for creating a distraction-free zone in any co-working space.",
-        "target_audience_appeal": "Designed for freelancers and remote workers in co-working spaces who desire privacy and noise reduction without sacrificing style.",
+        "product_name": "Floating Desk Shelf",
+        "simple_product_name": "floating_desk_shelf",
+        "description": "A modern floating shelf designed to hold small items, plants, or office supplies, adding both function and style to a workspace.",
+        "target_audience_appeal": "Appeals to those who prefer a clean and organized desk, offering a space-saving solution for displaying items.",
         "keywords": [
+            "desk organization",
             "minimal design",
-            "sound-absorbing",
-            "desk divider",
+            "home office decor",
+            "workspace storage"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "LED Desk Lamp with USB Charger",
+        "simple_product_name": "led_desk_lamp_usb_charger",
+        "description": "A sleek LED desk lamp featuring a built-in USB charger for convenient device charging, combining style and functionality for modern workspaces.",
+        "target_audience_appeal": "Ideal for remote workers and digital creatives who seek a minimalist desk accessory that enhances productivity and decor.",
+        "keywords": [
+            "LED desk lamp",
+            "minimal design",
             "productivity tools",
-            "co-working"
-        ]
+            "home office decor"
+        ],
+        "google_trend_score": 0
     },
     {
-        "product_name": "EcoSharp Bamboo Desk Tray",
-        "description": "An eco-friendly, beautifully crafted bamboo tray with compartments for organizing stationery and tech gadgets, enhancing both functionality and aesthetics of the workspace.",
-        "target_audience_appeal": "A great choice for environmentally conscious remote workers who value sustainable, yet stylish desk accessories.",
+        "product_name": "Minimalist Desk Organizer Set",
+        "simple_product_name": "minimalist_desk_organizer_set",
+        "description": "A set of clean and simple desk organizers to store pens, notepads, and other essentials, promoting a clutter-free and efficient workspace.",
+        "target_audience_appeal": "Caters to individuals who value organization and aesthetics, offering a stylish solution for keeping desk essentials in order.",
         "keywords": [
             "desk organization",
-            "eco-friendly",
-            "bamboo",
             "minimal design",
-            "home office decor"
-        ]
+            "productivity tools",
+            "workspace storage"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "Acrylic Monitor Stand Riser",
+        "simple_product_name": "acrylic_monitor_stand_riser",
+        "description": "An elegant acrylic stand riser designed to elevate the monitor for better ergonomics and a sleek, modern look on the desk.",
+        "target_audience_appeal": "Attracts those who prioritize a clean and organized desk setup, providing a stylish solution for improving posture and workspace aesthetics.",
+        "keywords": [
+            "monitor stand",
+            "minimal design",
+            "home office decor",
+            "workspace ergonomics"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "Wireless Charging Desk Pad",
+        "simple_product_name": "wireless_charging_desk_pad",
+        "description": "A sleek desk pad that wirelessly charges your devices while keeping your workspace clutter-free.",
+        "target_audience_appeal": "Ideal for tech-savvy remote workers who value a minimalist and organized desk setup.",
+        "keywords": [
+            "wireless charging pad",
+            "desk mat organizer",
+            "minimalist workspace accessory"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "Adjustable Monitor Stand with Storage",
+        "simple_product_name": "adjustable_monitor_stand",
+        "description": "An adjustable monitor stand with built-in storage compartments for a clean and ergonomic desk setup.",
+        "target_audience_appeal": "Perfect for digital creatives who seek a clutter-free desk with added storage functionality.",
+        "keywords": [
+            "adjustable monitor riser",
+            "desk organizer stand",
+            "modern workspace accessory"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "Minimalist Desk Clock with Calendar",
+        "simple_product_name": "minimalist_desk_clock",
+        "description": "A sleek desk clock featuring a built-in calendar function for efficient time management and organization.",
+        "target_audience_appeal": "Appeals to professionals seeking a stylish timepiece that complements their modern workspace.",
+        "keywords": [
+            "desk clock with calendar",
+            "modern office decor",
+            "minimalist timepiece"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "Floating Shelf Desk Organizer",
+        "simple_product_name": "floating_shelf_desk_organizer",
+        "description": "A floating shelf desk organizer that provides additional storage space without compromising the minimalist aesthetic.",
+        "target_audience_appeal": "Designed for individuals who value both functionality and aesthetic appeal in their workspace organization.",
+        "keywords": [
+            "floating desk shelf organizer",
+            "modern desk storage",
+            "minimalist workspace accessory"
+        ],
+        "google_trend_score": 0
+    },
+    {
+        "product_name": "Cable Management Clips Set",
+        "simple_product_name": "cable_management_clips",
+        "description": "A set of cable management clips to keep cords neatly organized and out of sight on your desk.",
+        "target_audience_appeal": "Perfect for those who prioritize a clean and clutter-free workspace with a focus on cable organization.",
+        "keywords": [
+            "desk cable clips",
+            "cord organizer set",
+            "minimalist cable management"
+        ],
+        "google_trend_score": 0
     }
 ]

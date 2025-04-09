@@ -9,24 +9,11 @@ from agents.branding_engine import generate_branding, save_product_with_branding
 from agents.product_research_engine import generate_product_ideas
 
 # --- Config ---
-st.set_page_config(page_title="RoboShop Dashboard", layout="wide")
-st.title("RoboShop Product Ideas")
-
-# --- Button to refresh the products
-if st.button("🔁 Generate New Product Ideas"):
-    with st.spinner("Thinking up some trending desk accessories..."):
-        success, result = generate_product_ideas()
-        if success:
-            st.success("Product ideas generated successfully. Refreshing dashboard...")
-            st.rerun()
-        else:
-            st.error(f"Failed to generate ideas: {result}")
-
 PRODUCT_FILE = "data/product_ideas.json"
 SAVED_PRODUCTS_DIR = "data/products"
 os.makedirs(SAVED_PRODUCTS_DIR, exist_ok=True)
 
-# --- Helper to display branding ---
+# --- Helpers ---
 def display_branding(product, branding):
     with st.expander("📦 Branding Preview", expanded=True):
         st.write(f"**Product Title:** {branding.get('product_title', '')}")
@@ -39,6 +26,20 @@ def display_branding(product, branding):
         st.write(f"**Hashtags:** `{', '.join(branding.get('suggested_hashtags', []))}`")
         st.write(f"**Brand Tone:** {branding.get('brand_tone', '')}")
 
+# --- Section: Header & Refresh products ---
+st.set_page_config(page_title="RoboShop Dashboard", layout="wide")
+st.title("RoboShop Product Ideas")
+
+if st.button("🔁 Generate New Product Ideas"):
+    with st.spinner("Thinking up some trending desk accessories..."):
+        success, result = generate_product_ideas()
+        if success:
+            st.success("Product ideas generated successfully. Refreshing dashboard...")
+            st.rerun()
+        else:
+            st.error(f"Failed to generate ideas: {result}")
+
+st.markdown("---")
 
 # --- Section: Product Ideas ---
 st.header("🛍️ Product Ideas")
