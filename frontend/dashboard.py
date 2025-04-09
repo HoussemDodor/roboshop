@@ -3,7 +3,6 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 import streamlit as st
 from agents.branding_engine import generate_branding, save_product_with_branding
 import json
@@ -61,3 +60,41 @@ else:
                         path = save_product_with_branding(item, branding)
                         st.success(f"Saved to {path}")
                 st.markdown("---")
+
+st.markdown("---")
+
+st.header("📂 View Saved Products")
+
+products_dir = "data/products"
+if not os.path.exists(products_dir):
+    os.makedirs(products_dir)
+
+saved_files = [f for f in os.listdir(products_dir) if f.endswith(".json")]
+
+if not saved_files:
+    st.info("No saved products found.")
+else:
+    selected_file = st.selectbox("Select a saved product file:", saved_files)
+
+    if selected_file:
+        file_path = os.path.join(products_dir, selected_file)
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        product = data.get("product", {})
+        branding = data.get("branding", {})
+
+        st.subheader(f"🛍️ {branding.get('product_title', product.get('product_name', 'Unnamed Product'))}")
+        st.write(f"**Description:** {product.get('description', '')}")
+        st.write(f"**Why It Appeals:** {product.get('target_audience_appeal', '')}")
+        st.write(f"**Keywords:** `{', '.join(product.get('keywords', []))}`")
+
+        st.write("### Branding Content")
+        st.write(f"**Short Description:** {branding.get('short_description', '')}")
+        st.write(f"**Long Description:** {branding.get('long_description', '')}")
+        st.write("**Unique Selling Points:**")
+        for usp in branding.get("unique_selling_points", []):
+            st.markdown(f"- {usp}")
+        st.write(f"**Instagram Caption:** {branding.get('instagram_caption', '')}")
+        st.write(f"**Hashtags:** `{', '.join(branding.get('suggested_hashtags', []))}`")
+        st.write(f"**Brand Tone:** {branding.get('brand_tone', '')}")
