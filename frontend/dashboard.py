@@ -14,6 +14,12 @@ SAVED_PRODUCTS_DIR = "data/products"
 os.makedirs(SAVED_PRODUCTS_DIR, exist_ok=True)
 
 # --- Helpers ---
+def display_product_details(product): 
+    with st.expander("Product details", expanded=False):
+        st.write(f"**Description:** {product.get('description', 'N/A')}")
+        st.write(f"**Why It Appeals:** {product.get('target_audience_appeal', 'N/A')}")
+        st.write(f"**Keywords:** `{', '.join(product.get('keywords', []))}`")
+
 def display_branding(product, branding):
     with st.expander("📦 Branding Preview", expanded=True):
         st.write(f"**Product Title:** {branding.get('product_title', '')}")
@@ -62,9 +68,7 @@ else:
             
             with st.container():
                 st.subheader(f"{i + 1}. {item.get('product_name', 'Unnamed Product')}")
-                st.write(f"**Description:** {item.get('description', 'N/A')}")
-                st.write(f"**Why It Appeals:** {item.get('target_audience_appeal', 'N/A')}")
-                st.write(f"**Keywords:** `{', '.join(item.get('keywords', []))}`")
+                display_product_details(item)
 
                 brand_key = f"branding_{i}"
                 col1, col2 = st.columns([1, 1])
@@ -111,9 +115,20 @@ else:
         branding = data.get("branding", {})
 
         st.subheader(f"🛍️ {branding.get('product_title', product.get('product_name', 'Unnamed Product'))}")
-        st.caption(f"File: `{selected_file}`")
         st.write(f"**Description:** {product.get('description', '')}")
         st.write(f"**Why It Appeals:** {product.get('target_audience_appeal', '')}")
         st.write(f"**Keywords:** `{', '.join(product.get('keywords', []))}`")
 
         display_branding(product, branding)
+
+        # Add or edit external URL
+        existing_url = data.get("url", "")
+        new_url = st.text_input("🔗 External Product URL", value=existing_url, placeholder="https://...")
+
+        if st.button("💾 Save Product URL"):
+            data["url"] = new_url  # Add or update the URL field
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=4)
+            st.success("URL saved to product file.")
+
+        

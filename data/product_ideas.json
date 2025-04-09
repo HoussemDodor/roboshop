@@ -1,64 +1,54 @@
 {
     "products": [
         {
-            "product_name": "Wireless Charging Desk Pad",
-            "simple_product_name": "wireless_charging_desk_pad",
-            "description": "A sleek desk pad that wirelessly charges your devices while keeping your workspace clutter-free.",
-            "target_audience_appeal": "Ideal for tech-savvy remote workers who value a minimalist and organized desk setup.",
+            "product_name": "Minimalist Desk Drawer Organizer",
+            "description": "A sleek and functional drawer organizer to keep pens, sticky notes, and other small items neatly arranged on your desk.",
+            "target_audience_appeal": "Ideal for those who value a clutter-free workspace and seek practical desk organization solutions.",
             "keywords": [
-                "wireless charging pad",
-                "desk mat organizer",
-                "minimalist workspace accessory"
-            ],
-            "google_trend_score": 0
+                "desk drawer organizer",
+                "minimalist desk accessory",
+                "desk storage solution"
+            ]
         },
         {
-            "product_name": "Adjustable Monitor Stand with Storage",
-            "simple_product_name": "adjustable_monitor_stand",
-            "description": "An adjustable monitor stand with built-in storage compartments for a clean and ergonomic desk setup.",
-            "target_audience_appeal": "Perfect for digital creatives who seek a clutter-free desk with added storage functionality.",
+            "product_name": "Modern Cable Management Box",
+            "description": "A stylish box designed to neatly hide and manage cables, chargers, and power strips on your desk, maintaining a clean and organized workspace.",
+            "target_audience_appeal": "Appeals to individuals looking to declutter their desk and create a visually appealing setup with minimal design.",
             "keywords": [
-                "adjustable monitor riser",
-                "desk organizer stand",
-                "modern workspace accessory"
-            ],
-            "google_trend_score": 0
+                "cable management box",
+                "modern desk accessory",
+                "cord organizer"
+            ]
         },
         {
-            "product_name": "Minimalist Desk Clock with Calendar",
-            "simple_product_name": "minimalist_desk_clock",
-            "description": "A sleek desk clock featuring a built-in calendar function for efficient time management and organization.",
-            "target_audience_appeal": "Appeals to professionals seeking a stylish timepiece that complements their modern workspace.",
+            "product_name": "Sleek Laptop Stand",
+            "description": "An adjustable and ergonomic laptop stand that elevates your laptop to eye level, reducing neck strain and enhancing productivity.",
+            "target_audience_appeal": "Perfect for remote workers seeking a minimalist and functional solution for a comfortable and organized desk setup.",
             "keywords": [
-                "desk clock with calendar",
-                "modern office decor",
-                "minimalist timepiece"
-            ],
-            "google_trend_score": 0
+                "laptop stand",
+                "ergonomic desk accessory",
+                "modern laptop riser"
+            ]
         },
         {
-            "product_name": "Floating Shelf Desk Organizer",
-            "simple_product_name": "floating_shelf_desk_organizer",
-            "description": "A floating shelf desk organizer that provides additional storage space without compromising the minimalist aesthetic.",
-            "target_audience_appeal": "Designed for individuals who value both functionality and aesthetic appeal in their workspace organization.",
+            "product_name": "Minimalist Desk Plant Pot",
+            "description": "A sleek and modern pot designed to hold small plants or succulents, adding a touch of greenery and freshness to your workspace.",
+            "target_audience_appeal": "Ideal for digital creatives who appreciate minimalist decor and seek to bring nature into their home office environment.",
             "keywords": [
-                "floating desk shelf organizer",
-                "modern desk storage",
-                "minimalist workspace accessory"
-            ],
-            "google_trend_score": 0
+                "desk plant pot",
+                "modern plant holder",
+                "minimalist office decor"
+            ]
         },
         {
-            "product_name": "Cable Management Clips Set",
-            "simple_product_name": "cable_management_clips",
-            "description": "A set of cable management clips to keep cords neatly organized and out of sight on your desk.",
-            "target_audience_appeal": "Perfect for those who prioritize a clean and clutter-free workspace with a focus on cable organization.",
+            "product_name": "Contemporary Desk Pen Holder",
+            "description": "A chic and functional pen holder crafted from premium materials, keeping pens and pencils organized and easily accessible on your desk.",
+            "target_audience_appeal": "Appeals to those who value both style and organization, enhancing the aesthetic appeal of their workspace.",
             "keywords": [
-                "desk cable clips",
-                "cord organizer set",
-                "minimalist cable management"
-            ],
-            "google_trend_score": 0
+                "pen holder",
+                "modern desk accessory",
+                "contemporary pen organizer"
+            ]
         }
     ]
 }

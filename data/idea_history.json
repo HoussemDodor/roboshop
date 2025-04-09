@@ -123,5 +123,55 @@
             "minimalist cable management"
         ],
         "google_trend_score": 0
+    },
+    {
+        "product_name": "Minimalist Desk Drawer Organizer",
+        "description": "A sleek and functional drawer organizer to keep pens, sticky notes, and other small items neatly arranged on your desk.",
+        "target_audience_appeal": "Ideal for those who value a clutter-free workspace and seek practical desk organization solutions.",
+        "keywords": [
+            "desk drawer organizer",
+            "minimalist desk accessory",
+            "desk storage solution"
+        ]
+    },
+    {
+        "product_name": "Modern Cable Management Box",
+        "description": "A stylish box designed to neatly hide and manage cables, chargers, and power strips on your desk, maintaining a clean and organized workspace.",
+        "target_audience_appeal": "Appeals to individuals looking to declutter their desk and create a visually appealing setup with minimal design.",
+        "keywords": [
+            "cable management box",
+            "modern desk accessory",
+            "cord organizer"
+        ]
+    },
+    {
+        "product_name": "Sleek Laptop Stand",
+        "description": "An adjustable and ergonomic laptop stand that elevates your laptop to eye level, reducing neck strain and enhancing productivity.",
+        "target_audience_appeal": "Perfect for remote workers seeking a minimalist and functional solution for a comfortable and organized desk setup.",
+        "keywords": [
+            "laptop stand",
+            "ergonomic desk accessory",
+            "modern laptop riser"
+        ]
+    },
+    {
+        "product_name": "Minimalist Desk Plant Pot",
+        "description": "A sleek and modern pot designed to hold small plants or succulents, adding a touch of greenery and freshness to your workspace.",
+        "target_audience_appeal": "Ideal for digital creatives who appreciate minimalist decor and seek to bring nature into their home office environment.",
+        "keywords": [
+            "desk plant pot",
+            "modern plant holder",
+            "minimalist office decor"
+        ]
+    },
+    {
+        "product_name": "Contemporary Desk Pen Holder",
+        "description": "A chic and functional pen holder crafted from premium materials, keeping pens and pencils organized and easily accessible on your desk.",
+        "target_audience_appeal": "Appeals to those who value both style and organization, enhancing the aesthetic appeal of their workspace.",
+        "keywords": [
+            "pen holder",
+            "modern desk accessory",
+            "contemporary pen organizer"
+        ]
     }
 ]
