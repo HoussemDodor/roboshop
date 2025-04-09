@@ -1,53 +1,63 @@
 {
     "products": [
         {
-            "product_name": "Minimalist Desk Organizer Set",
-            "description": "A sleek set of desk organizers to keep your workspace tidy and clutter-free.",
-            "target_audience_appeal": "Ideal for remote workers and digital creatives who value a minimalist and organized desk.",
+            "product_name": "ZenSpace Smart Desk Organizer",
+            "description": "A compact, elegant organizer with built-in wireless charging pad and ambient light, designed to keep essentials tidy while fitting seamlessly into a minimalist workspace.",
+            "target_audience_appeal": "Ideal for remote workers and digital creatives who appreciate clutter-free spaces and modern technology.",
             "keywords": [
                 "desk organization",
+                "wireless charging",
                 "minimal design",
+                "ambient lighting",
                 "home office decor"
             ]
         },
         {
-            "product_name": "Cable Management Box",
-            "description": "A stylish box to neatly conceal and organize cables on your desk for a clean look.",
-            "target_audience_appeal": "Perfect for individuals who prioritize a tidy and clutter-free workspace.",
+            "product_name": "CableQuilt Under-Desk Manager",
+            "description": "A sleek, magnetic cable management system that attaches under any desk, allowing for easy organization and adjustment of all types of cables.",
+            "target_audience_appeal": "Perfect for digital creatives who need to manage multiple cables neatly to maintain a clean working environment.",
             "keywords": [
                 "cable management",
+                "magnetic",
+                "under-desk",
                 "minimal design",
+                "productivity tools"
+            ]
+        },
+        {
+            "product_name": "ClearView Acrylic Monitor Stand",
+            "description": "A transparent, sturdy acrylic stand designed to raise your monitor to eye level, enhancing ergonomic comfort while maintaining a minimalist aesthetic.",
+            "target_audience_appeal": "Suitable for remote workers looking for a stylish yet functional addition to their home office that promotes comfort and productivity.",
+            "keywords": [
+                "minimal design",
+                "ergonomic",
+                "monitor stand",
+                "desk organization",
                 "home office decor"
             ]
         },
         {
-            "product_name": "Modern Desk Shelf",
-            "description": "A sleek and versatile shelf to elevate your desk space and display decor or office essentials.",
-            "target_audience_appeal": "Appeals to those who seek a clean and aesthetic desk setup for enhanced productivity.",
+            "product_name": "SilentSpace Desk Divider",
+            "description": "A lightweight, portable desk divider with sound-absorbing properties, perfect for creating a distraction-free zone in any co-working space.",
+            "target_audience_appeal": "Designed for freelancers and remote workers in co-working spaces who desire privacy and noise reduction without sacrificing style.",
+            "keywords": [
+                "minimal design",
+                "sound-absorbing",
+                "desk divider",
+                "productivity tools",
+                "co-working"
+            ]
+        },
+        {
+            "product_name": "EcoSharp Bamboo Desk Tray",
+            "description": "An eco-friendly, beautifully crafted bamboo tray with compartments for organizing stationery and tech gadgets, enhancing both functionality and aesthetics of the workspace.",
+            "target_audience_appeal": "A great choice for environmentally conscious remote workers who value sustainable, yet stylish desk accessories.",
             "keywords": [
                 "desk organization",
+                "eco-friendly",
+                "bamboo",
                 "minimal design",
                 "home office decor"
-            ]
-        },
-        {
-            "product_name": "Productivity Planner Notebook",
-            "description": "A minimalist planner notebook designed to help remote workers and creatives stay organized and focused.",
-            "target_audience_appeal": "Ideal for individuals looking for productivity tools to enhance efficiency and workflow.",
-            "keywords": [
-                "productivity tools",
-                "minimal design",
-                "desk organization"
-            ]
-        },
-        {
-            "product_name": "Modern Desk Lamp",
-            "description": "An elegant and functional desk lamp with a contemporary design to illuminate your workspace.",
-            "target_audience_appeal": "Suited for those who appreciate design-forward solutions for their home office.",
-            "keywords": [
-                "home office decor",
-                "minimal design",
-                "desk accessories"
             ]
         }
     ]

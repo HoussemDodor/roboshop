@@ -1,0 +1,25 @@
+{
+    "product": {
+        "product_name": "Modern Desk Lamp",
+        "description": "An elegant and functional desk lamp with a contemporary design to illuminate your workspace.",
+        "target_audience_appeal": "Suited for those who appreciate design-forward solutions for their home office.",
+        "keywords": [
+            "home office decor",
+            "minimal design",
+            "desk accessories"
+        ]
+    },
+    "branding": {
+        "product_title": "Modern Desk Lamp",
+        "short_description": "Illuminate your workspace with this elegant and functional desk lamp featuring a contemporary design.",
+        "long_description": "The Modern Desk Lamp is the perfect addition to any minimalist home office. Its sleek and modern design not only enhances your workspace but also provides the right amount of light for maximum productivity. Made with high-quality materials, this lamp is both stylish and practical.",
+        "unique_selling_points": [
+            "Contemporary design for a modern workspace",
+            "High-quality materials for durability",
+            "Adjustable light settings for personalized illumination"
+        ],
+        "instagram_caption": "Brighten up your workday with our stylish Modern Desk Lamp. Elevate your home office decor with this minimal design.",
+        "suggested_hashtags": "#HomeOfficeDecor #MinimalDesign #DeskAccessories",
+        "brand_tone": "Sleek, modern, sophisticated"
+    }
+}
