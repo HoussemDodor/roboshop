@@ -9,7 +9,8 @@ An autonomous e-commerce platform powered by AI agents. This project focuses on 
 - Modular structure for branding, marketing, and store management
 
 ## Current Agent:
-- `product_research_agent.py`: Generates trending product ideas
+- `product_research_engine.py`: Generates trending product ideas
+- `branding_engine.py`: Generates branding for a product
 
 ## Setup
 
